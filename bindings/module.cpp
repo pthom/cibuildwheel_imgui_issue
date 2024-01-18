@@ -8,10 +8,10 @@
 namespace py = pybind11;
 
 
-void py_init_module_imgui(py::module& m);
+void py_init_module_mylib(py::module& m);
 
 
-PYBIND11_MODULE(_imgui, m)
+PYBIND11_MODULE(_mylib, m)
 {
-    py_init_module_imgui(m);
+    py_init_module_mylib(m);
 }

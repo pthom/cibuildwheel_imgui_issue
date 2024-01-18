@@ -12,18 +12,18 @@ except ImportError:
 
 
 setup(
-    name="imgui",
+    name="mylib",
     version="0.0.1",
-    description="imgui, example of bindings with skbuild and litgen",
+    description="mylib, example of bindings with skbuild and litgen",
     long_description="...",
     author="Pascal Thomet",
     author_email="pthomet@gmail.com",
     url="https://github.com/pthom/litgen",
-    packages=(["imgui"]),
+    packages=(["mylib"]),
     package_dir={"": "bindings"},
-    cmake_install_dir="bindings/imgui",
+    cmake_install_dir="bindings/mylib",
     # include_package_data=True,
-    package_data={"imgui": ["py.typed", "*.pyi"]},
+    package_data={"mylib": ["py.typed", "*.pyi"]},
     extras_require={"test": ["pytest"]},
     python_requires=">=3.6",
     install_requires=[],
