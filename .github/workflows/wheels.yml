@@ -32,7 +32,7 @@ jobs:
 #    - name: Setup interactive tmate session
 #      uses: mxschmitt/action-tmate@v3
 
-    - uses: pypa/cibuildwheel@v2.16.4
+    - uses: pypa/cibuildwheel@v2.16.5
 
     - name: Verify clean directory
       run: git diff --exit-code
